@@ -1,32 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Test</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <title>Mano Bankas</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="custom.css">
 </head>
-<body class="login-page">
+<body>
+<nav class="navbar navbar-light bg-faded">
+    <div class="container d-flex justify-content-between">
+        <a class="navbar-brand" href="inner.html">Mano Bankas</a>
+        <ul class="navbar-nav">
+            <li class="hidden-xs-down nav-item">
+                <a class="nav-link disabled">
+                    Laurynas Bakas
+                </a>
+            </li>
+            <li class="hidden-sm-up nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Laurynas Bakas
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="inner.html">Accounts</a>
+                    <a class="dropdown-item" href>Transfer</a>
+                    <a class="dropdown-item" href>Settings</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="index.html">Log Out</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
 
-
-<div class="container">
-<div class="d-flex justify-content-between">
-<div>Vienas</div>
-<div>Antras</div>
-<div>Trečias</div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="hidden-xs-down col-3">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a href="inner.html" class="nav-link active" href>Accounts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href>Transfer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href>Settings</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Log Out</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col col-sm-9">
+            <div class="row">
+                <div class="col">
+                    <h1 class="mb-5">Accounts</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <table class="table">
+                        <thead class="thead-default">
+                        <tr>
+                            <th>IBAN</th>
+                            <th>Balance</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">LT00 0000 0000 0000 0000</th>
+                            <td>€1,000,000.00</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">LT00 0000 0000 0000 0000</th>
+                            <td>€0.00</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">LT00 0000 0000 0000 0000</th>
+                            <td>€0.00</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-</div>
 
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
